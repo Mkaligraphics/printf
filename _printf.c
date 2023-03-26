@@ -1,7 +1,12 @@
-
 #include "main.h"
 
 int _printf(const char *format, ...)
+/**
+ * _printf - Printf function
+ * @format: format.
+ * Return: Printed chars.
+ */
+
 {
     int count = 0;
     va_list args;
